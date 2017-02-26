@@ -1,0 +1,207 @@
+/*
+Tutorial Name: Scroll To Top Then Fixed Navigation Effect With JQuery and CSS
+https://stanhub.com/scroll-to-top-then-fixed-navigation-effect-with-jquery-and-css-free-download/
+Description: Create a sticky navigation bar that remains fixed to the top after scroll
+Author: Stan Kostadinov
+Author URI: https://stanhub.com
+Version: 1.0.0 - 11.01.2014
+*/
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+/* This class is added on scroll */
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 70px;
+	z-index: 1;
+}
+
+body {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* Navigation Settings */
+nav {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 70px;
+	background: rgba(255, 255, 255, 0.0);
+
+}
+
+nav li {
+	display: inline-block;
+	padding: 24px 10px;
+}
+
+nav li a {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-decoration: none!important;
+	font-weight: bold;
+}
+
+.alignleft {
+	float: left;
+	padding-left: 1em;
+}
+
+.alignright {
+	float: right;
+	padding-right: 1em;
+}
+
+section {
+	min-height: 100vh;
+}
+
+/* Screens Settings */
+/*screen 1 is the header*/
+#screen1 {
+
+
+background: #DE6262; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #DE6262 , #FFB88C); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+#screen1 p {
+	padding-top: 1em;
+	font-size: 1.5em;
+}
+
+.icocolor {
+	color:white;
+}
+
+.headericon {
+	padding-top: 4em;
+	 /*gives space below icon*/
+}
+
+.headertext {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: -10px;
+	font-size: 4em;
+}
+#screen2 {
+	background: #FFB88C;
+}
+
+#screen2 p {
+	padding-top: 1em;
+	font-size: 3em;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.p2 {
+	font-size: 1em;
+	text-align: center;
+	color: white;
+}
+
+.screen2arrow {
+	position: relative;
+	text-align: center;
+}
+
+#screen3 {
+	background: #DE6262;
+}
+
+#screen3 p {
+	padding-top: 1em;
+	font-size: 3em;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.p3 {
+	font-size: 1em;
+	text-align: center;
+	color: white;
+}
+
+#screen4 {
+	background: #DE6262;
+}
+
+#screen4 p {
+	padding-top: 1em;
+	font-size: 3em;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.p4 {
+	font-size: 1em;
+	text-align: center;
+	color: white;
+}
+
+.screen3arrow {
+	position: relative;
+	text-align: center;
+}
+
+@media only screen and (max-width: 520px) {
+
+	nav li {
+		padding: 24px 4px;
+	}
+
+	nav li a {
+		font-size: 14px;
+	}
+
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.aos-all {
+  max-width: 100%;
+  margin: 5vh auto 0 auto;
+}
+
+.aos-item {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  overflow: auto;
+  padding: 20px;
+}
+
+.aos-item__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: #1da4e2;
+  min-height: 200px;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .aos-item {
+    width: 50%;
+  }
+}
+
