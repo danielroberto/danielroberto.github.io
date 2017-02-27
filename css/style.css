@@ -133,8 +133,10 @@ background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, F
 	text-align: center;
 }
 
+
+
 #screen3 {
-	background: #DE6262;
+	background: #DE8362;
 }
 
 #screen3 p {
@@ -146,24 +148,6 @@ background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, F
 }
 
 .p3 {
-	font-size: 1em;
-	text-align: center;
-	color: white;
-}
-
-#screen4 {
-	background: #DE6262;
-}
-
-#screen4 p {
-	padding-top: 1em;
-	font-size: 3em;
-	text-align: center;
-	color: white;
-	font-weight: bold;
-}
-
-.p4 {
 	font-size: 1em;
 	text-align: center;
 	color: white;
@@ -207,6 +191,56 @@ background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, F
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 70%;
+
+  	padding-top: 2em;
+      width: 100%;
       margin: auto;
   }
+
+.button-wrap {
+  position: relative;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+a:button {
+
+  text-decoration: none;
+  font-size: 18px;
+ 
+}
+
+/* BUTTON 6 */
+.btn6, .btn6:link, .btn6:visited {
+  padding: 13px 10px;
+  border: 1px solid #000;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 3px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.btn6:hover, .btn6:link:hover, .btn6:visited:hover {
+  background: #333;
+  border: 1px solid #333;
+  color: #fefefe;
+  border-radius: 30px;
+}
+
+.foot {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+	color: #000;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footicons {
+	text-align: center;
+	color: #000;
+	letter-spacing: 1em;
+}
