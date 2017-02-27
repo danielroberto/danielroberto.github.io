@@ -11,6 +11,11 @@ Version: 1.0.0 - 11.01.2014
 
 a {text-decoration: none;}
 
+a:hover {
+	color: #fff;
+	text-shadow: 0px 0px 15px #000;
+}
+
 /* This class is added on scroll */
 .fixed {
 	position: fixed;
@@ -47,6 +52,18 @@ nav li a {
 	font-size: 14px;
 	text-decoration: none!important;
 	font-weight: bold;
+	text-shadow: 0px 0px 5px #000;
+}
+
+nav li a.hover {
+	color: #fff;
+	text-shadow: 0px 0px 15px #fff;
+}
+
+nav li a.active {
+	color: #fff;
+	text-shadow: 0px 0px 20px #fff;
+	border-bottom: 2px solid #52d3aa;
 }
 
 .alignleft {
@@ -58,6 +75,7 @@ nav li a {
 	float: right;
 	padding-right: 1em;
 }
+
 
 section {
 	min-height: 100vh;
