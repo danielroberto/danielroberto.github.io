@@ -5,11 +5,12 @@
   <title>Daniel Roberto - UX Designer / Photographer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  
+ 
+
+	<link rel="stylesheet" href="dist/slippry.css" />
       <link rel="stylesheet" href="css/bootstrap.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="dist/aos.css" />
-      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/style.css">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
   
@@ -19,17 +20,18 @@
   <section id="screen1">
       
   <div class="container">
-   <div class="aos-all" data-aos="fade-down">
-  <div class="headericon">
- 
-  		<img src="images/headicon.png"></div>
+   		<div class="animatedParent animateOnce">
+			<div class="animated fadeInDown">
+				<div class="headericon">
+  				<img src="images/headicon.png"></div>
 
-  <p>
-	What's up!<br> My name is Daniel Roberto and I'm an aspiring UX designer and photographer.
-	</p>
-	<p>
-	<a href="#screen2"><span class="glyphicon glyphicon-menu-down icocolor" aria-hidden="true"></span></a></p>
-</div>
+  				<p>
+					What's up!<br> My name is Daniel Roberto and I'm an aspiring UX designer and photographer.
+				</p>
+				<p>
+				<a href="#screen2"><span class="glyphicon glyphicon-menu-down icocolor" aria-hidden="true"></span></a></p>
+			</div>
+		</div>
 	</div>
 
 
@@ -49,74 +51,83 @@
 
 <section id="screen2">
 	<div class="container">
-		<p>
-			let's design.</p>
+				<p> let's design.</p>
+				<div class="row">
 
-	<div class="p2">
-			here's some of my work: </div>
-			<div class="aos-item" data-aos="fade-up">
-        <div class="aos-item__inner"><h3>1</h3></div>
-      </div>
-<div class="aos-item" data-aos="fade-up">
-        <div class="aos-item__inner"><h3>1</h3></div>
-      </div>
-      <div class="aos-item" data-aos="fade-up">
-        <div class="aos-item__inner"><h3>1</h3></div>
-      </div>
-<div class="aos-item" data-aos="fade-up">
-        <div class="aos-item__inner"><h3>1</h3></div>
-      </div>
-	</div>
-     <div class="screen2arrow">
-	<a href="#screen3"><span class="glyphicon glyphicon-menu-down icocolor" aria-hidden="true"></span></a></div>
-</section>
-<section id="screen3">
-	<div class="container">
-	<p>
-	let's shoot.</p>
+					<div class="col-sm-4">
+							<div class="animatedParent data-appear">
+								<div class="animated fadeInUp">
 
-	<div class="p3">
-			here's some of my work: </div>
-			<div class="aos-item" data-aos="fade-up">
-        <div class="aos-item__inner"><h3>1</h3></div>
-      </div>
-<div class="aos-item" data-aos="fade-up">
-        <div class="aos-item__inner"><h3>1</h3></div>
-      </div>
-      <div class="aos-item" data-aos="fade-up">
-        <div class="aos-item__inner"><h3>1</h3></div>
-      </div>
-<div class="aos-item" data-aos="fade-up">
-        <div class="aos-item__inner"><h3>1</h3></div>
-      </div>
+									<div class="content-holder">
+        								<img src="images/brewngo.jpg" class="img-responsive">
+        								<div class="text-div">p</div>
+        							</div>
+        						</div>
+        					</div>
+        			</div>
+        			
+					<div class="col-sm-4">
+							<div class="animatedParent data-appear">
+								<div class="animated fadeInUp">
+
+									<div class="content-holder">
+        								<img src="images/chewsr.jpg" class="img-responsive">
+        								<div class="text-div">p</div>
+        							</div>
+        						</div>
+        					</div>
+        			</div>
+        			
+
+					<div class="col-sm-4">
+							<div class="animatedParent data-appear">
+								<div class="animated fadeInUp">
+
+									<div class="content-holder">
+        								<img src="images/wha.jpg" class="img-responsive">
+        								<div class="text-div">p</div>
+        							</div>
+        						</div>
+        					</div>
+        			</div>
 	</div>
 
-	</div>
+
+
+
+
+
+
+
+
+  
+
 <div class="screen3arrow">
 	<a href="#screen4"><span class="glyphicon glyphicon-menu-down icocolor" aria-hidden="true"></span></a></div>
 	</section>
 
 <section id="screen4">
 	<div class="container">
-	<p>
-	want to know more?</p>
-
-	<div class="p4">
-			here's some of my work: </div>
-			
-
-
+	<div id="Fader" class="fader">
+  <img class="slide" src="http://www.barrelny.com/wp-content/uploads/about-office-slide-pingpong2-800x500.jpg"/>
+  <img class="slide" src="http://www.barrelny.com/wp-content/uploads/about-office-slide-bookcase-800x500.jpg"/>
+  <img class="slide" src="http://www.barrelny.com/wp-content/uploads/about-office-slide-bikerack-800x500.jpg"/>
+    <div class="fader_controls">
+      <div class="page prev" data-target="prev">&lsaquo;</div>
+      <div class="page next" data-target="next">&rsaquo;</div>
+      <ul class="pager_list"></ul>
+    </div>
+</div>
 	</div>
-	
 	</section>
 <footer>
 	penis </footer>
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <script src="js/index.js"></script>
-
-    <script src="dist/aos.js"></script>
+    <script src="js/css3-animate-it.js"></script>
+    <script src="dist/slippry.js"></script>
     <script>
       AOS.init({
         easing: 'ease-in-out-sine'

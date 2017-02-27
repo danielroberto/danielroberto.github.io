@@ -101,7 +101,7 @@ background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, F
 }
 
 .headericon {
-	padding-top: 3em;
+	padding-top: 4em;
 	 /*gives space below icon*/
 }
 
@@ -186,40 +186,96 @@ background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, F
 
 }
 
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
+.content-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 }
 
-.aos-all {
-  max-width: 100%;
-  margin: 5vh auto 0 auto;
-}
-
-.aos-item {
-  display: inline-block;
-  float: left;
-  width: 25%;
-  overflow: auto;
-  padding: 20px;
-}
-
-.aos-item__inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  float: left;
-  background: #1da4e2;
-  min-height: 200px;
-  text-align: center;
-  color: #fff;
-}
-
-@media screen and (max-width: 800px) {
-  .aos-item {
-    width: 50%;
+/* On Mobiles (screen width <= 767px) */
+@media screen and (max-width: 767px) {
+  .content-holder {
+    flex-direction: column;
+  }
+  
+  .text-div {
+    text-align: center;
   }
 }
 
+.fader{
+    position: relative;
+    padding-top: 60%;
+    overflow: hidden;
+} 
+ 
+.fader .slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    opacity: 0;
+}
+ 
+.fader img.slide{
+    height: auto;
+}
+
+.fader .prev,
+.fader .next{
+  position: absolute;
+  height: 80px;
+  line-height: 55px;
+  width: 50px;
+  font-size: 100px;
+  text-align: center;
+  color: #fff;
+  top: 50%;
+  left: 0;
+  z-index: 4;
+  margin-top: -25px;
+  cursor: pointer;
+  opacity: .7;
+  transition: all 150ms;
+}
+
+.fader .prev:hover,
+.fader .next:hover{
+  opacity: 1;
+}
+
+.fader .next{
+  left: auto;
+  right: 0;
+}
+
+.fader .pager_list{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  bottom: 0;
+  text-align: center;
+  z-index: 4;
+}
+
+.fader .pager_list li{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 7px;
+  background: #fff;
+  opacity: .7;
+  text-indent: -999px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 150ms;
+}
+
+.fader .pager_list li:hover,
+.fader .pager_list li.active{
+  opacity: 1;
+}
