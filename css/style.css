@@ -11,10 +11,6 @@ Version: 1.0.0 - 11.01.2014
 
 a {text-decoration: none;}
 
-a:hover {
-	color: #fff;
-	text-shadow: 0px 0px 15px #000;
-}
 
 /* This class is added on scroll */
 .fixed {
@@ -52,17 +48,15 @@ nav li a {
 	font-size: 14px;
 	text-decoration: none!important;
 	font-weight: bold;
-	text-shadow: 0px 0px 5px #000;
 }
 
 nav li a.hover {
 	color: #fff;
-	text-shadow: 0px 0px 15px #fff;
+
 }
 
 nav li a.active {
 	color: #fff;
-	text-shadow: 0px 0px 20px #fff;
 	border-bottom: 2px solid #52d3aa;
 }
 
@@ -105,11 +99,7 @@ background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, F
 	 /*gives space below icon*/
 }
 
-.headertext {
-	font-family: 'Montserrat', sans-serif;
-	letter-spacing: -10px;
-	font-size: 4em;
-}
+
 #screen2 {
 	
 
@@ -121,7 +111,7 @@ background: linear-gradient(to left, #6190E8 , #A7BFE8); /* W3C, IE 10+/ Edge, F
 
 #screen2 p {
 	padding-top: 1em;
-	font-size: 3em;
+	font-size: 2em;
 	text-align: center;
 	color: white;
 	font-weight: bold;
@@ -151,7 +141,7 @@ background: linear-gradient(to left, #649173 , #DBD5A4); /* W3C, IE 10+/ Edge, F
 
 #screen3 p {
 	padding-top: 1em;
-	font-size: 3em;
+	font-size: 2em;
 	text-align: center;
 	color: white;
 	font-weight: bold;
@@ -185,6 +175,7 @@ background: linear-gradient(to left, #649173 , #DBD5A4); /* W3C, IE 10+/ Edge, F
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 1em;
   
 }
 
@@ -217,15 +208,15 @@ background: linear-gradient(to left, #649173 , #DBD5A4); /* W3C, IE 10+/ Edge, F
 a:button {
 
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1em;
  
 }
 
 /* BUTTON 6 */
 .btn6, .btn6:link, .btn6:visited {
   padding: 13px 10px;
-  border: 1px solid #000;
-  color: #000;
+  border: 1px solid #fff;
+  color: #fff;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 13px;
@@ -234,9 +225,8 @@ a:button {
   transition: all .2s ease-in-out;
 }
 .btn6:hover, .btn6:link:hover, .btn6:visited:hover {
-  background: #333;
-  border: 1px solid #333;
-  color: #fefefe;
+  border: 1px solid #fff;
+  color: #fff;
   border-radius: 30px;
 }
 
