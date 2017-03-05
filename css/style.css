@@ -181,6 +181,11 @@ background: linear-gradient(to left, #649173 , #DBD5A4); /* W3C, IE 10+/ Edge, F
   
 }
 
+.text-div {
+	font-size: 0.9em;
+	padding-top: 1em;
+}
+
 /* On Mobiles (screen width <= 767px) */
 @media screen and (max-width: 767px) {
   .content-holder {
@@ -286,4 +291,17 @@ a:button {
 #return-to-top:hover i {
     color: #fff;
     top: 5px;
+}
+
+.project {
+	transition: 0.3s;
+}
+
+.project-container {
+	padding: 2px 16px;
+}
+
+.project-spacer {
+	padding-top: 3em;
+	padding-bottom: 3em:;
 }
