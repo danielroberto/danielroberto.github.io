@@ -110,7 +110,7 @@ background: linear-gradient(to left, #6190E8 , #A7BFE8); /* W3C, IE 10+/ Edge, F
 }
 
 #screen2 p {
-	padding-top: 1em;
+	padding-top: 2em;
 	font-size: 2em;
 	text-align: center;
 	color: white;
@@ -140,7 +140,7 @@ background: linear-gradient(to left, #649173 , #DBD5A4); /* W3C, IE 10+/ Edge, F
 }
 
 #screen3 p {
-	padding-top: 1em;
+	padding-top: 2em;
 	font-size: 2em;
 	text-align: center;
 	color: white;
@@ -305,3 +305,5 @@ a:button {
 	padding-top: 3em;
 	padding-bottom: 3em:;
 }
+
+
