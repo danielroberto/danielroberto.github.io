@@ -400,7 +400,9 @@ a:button {
 }
 
 .img-responsive-about {
-	max-width: 70%
+	max-width: 70%;
+	display: block;
+	margin: 0 auto;
 }
 
 .screenshot-responsive {
@@ -453,6 +455,6 @@ a:button {
 }
 
 .tint-blue-report {
-	background-image: linear-gradient(to left, rgba(97, 144, 232, 0.7), rgba(167, 191, 232, 0.7)), url(../images/ucsdreport/posterblur.jpg);
+	background-image: linear-gradient(to left, rgba(97, 144, 232, 0.7), rgba(167, 191, 232, 0.7)), url(../images/ucsdreport/Posterblur.jpg);
 
 }
