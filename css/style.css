@@ -202,6 +202,14 @@ background: #EFF2EF; /* fallback for old browsers */
 	font-weight: bold;
 }
 
+.project-quote {
+	font size: 1em;
+	text-align: center;
+	color: #30332E;
+	font-weight: bold;
+	font-style: italic;
+}
+
 .screen4arrow {
 	position: relative;
 	text-align: center;
@@ -403,6 +411,14 @@ a:button {
 	max-width: 70%;
 	display: block;
 	margin: 0 auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.img-responsive-process {
+	max-width: 50%
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .screenshot-responsive {
@@ -450,7 +466,7 @@ a:button {
 
 
 .tint-blue-folio {
-	background-image: linear-gradient(to left, rgba(97, 144, 232, 0.7), rgba(167, 191, 232, 0.7)), url(../images/folio/blursketch6.jpg);
+	background-image: linear-gradient(to left, rgba(97, 144, 232, 0.7), rgba(167, 191, 232, 0.7)), url(blursketch6.jpg);
 
 }
 
