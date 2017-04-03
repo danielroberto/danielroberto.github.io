@@ -474,3 +474,7 @@ a:button {
 	background-image: linear-gradient(to left, rgba(97, 144, 232, 0.7), rgba(167, 191, 232, 0.7)), url(Posterblur.jpg);
 
 }
+
+.tint-blue-chewsr {
+	background-image: linear-gradient(to left, rgba(97, 144, 232, 0.7), rgba(167, 191, 232, 0.7)), url(image05.jpg);
+}
