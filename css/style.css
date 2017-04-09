@@ -401,6 +401,11 @@ a:button {
 	padding-bottom: 3em;
 }
 
+.project-spacer-medium {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
 .project-spacer-small {
 	padding-top:1em;
 	padding-bottom: 1em;
@@ -486,3 +491,15 @@ a:button {
 .tint-blue-tct {
 	background-image: linear-gradient(to left, rgba(97, 144, 232, 0.7), rgba(167, 191, 232, 0.7)), url(image56blur.jpg);
 }
+
+.tint-blue-sharp {
+	background-image: linear-gradient(to left, rgba(97, 144, 232, 0.7), rgba(167, 191, 232, 0.7)), url(shooter.jpg);
+}
+
+.plus-sign {
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	color:  #30332E;
+}
+
