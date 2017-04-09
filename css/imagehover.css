@@ -71,15 +71,15 @@
     opacity: 0;
 }
 
-[class^='imghvr-fade']:hover > img, [class*=' imghvr-fade']:hover > img {
+[class^='imghvr-fade']:hover > img, [class*=' imghvr-fade']:hover > img, [class^='imghvr-fade']:active > img, [class*=' imghvr-fade']:active > img {
     opacity: 0;
 }
 
-[class^='imghvr-fade']:hover figcaption, [class*=' imghvr-fade']:hover figcaption {
+[class^='imghvr-fade']:hover figcaption, [class*=' imghvr-fade']:hover figcaption, [class^='imghvr-fade']:active figcaption, [class*=' imghvr-fade']:active figcaption {
     opacity: 1;
 }
 
-[class^='imghvr-fade']:hover > img, [class^='imghvr-fade']:hover figcaption, [class*=' imghvr-fade']:hover > img, [class*=' imghvr-fade']:hover figcaption {
+[class^='imghvr-fade']:hover > img, [class^='imghvr-fade']:hover figcaption, [class*=' imghvr-fade']:hover > img, [class*=' imghvr-fade']:hover figcaption, [class^='imghvr-fade']:active > img, [class^='imghvr-fade']:active figcaption, [class*=' imghvr-fade']:active > img, [class*=' imghvr-fade']:active figcaption {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
