@@ -29,3 +29,15 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     }, 500);
 });
 
+$('imghvr-fade').on("touchstart", function (e) {
+    "use strict"; //satisfy the code inspectors
+    var link = $(this); //preselect the link
+    if (link.hasClass('hover')) {
+        return true;
+    } else {
+        link.addClass("hover");
+        $('imghvr-fade').not(this).removeClass("hover");
+        e.preventDefault();
+        return false; //extra, and to make sure the function has consistent return points
+    }
+});
