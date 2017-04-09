@@ -29,7 +29,7 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     }, 500);
 });
 
-$('imghvr-fade').on("touchstart", function (e) {
+$('a.imghvr-fade').on("touchstart", function (e) {
     "use strict"; //satisfy the code inspectors
     var link = $(this); //preselect the link
     if (link.hasClass('hover')) {

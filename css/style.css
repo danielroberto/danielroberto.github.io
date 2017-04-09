@@ -459,13 +459,6 @@ a:button {
 }
 
 
-#hero-about{
-  background-image:url(../images/places/21.jpg);
-  background-size:cover;
-  position:relative;
-  min-height:100vh;
-}
-
 .hero-folio{
 
   background-size:cover;
@@ -494,6 +487,34 @@ a:button {
 
 .tint-blue-sharp {
 	background-image: linear-gradient(to left, rgba(97, 144, 232, 0.7), rgba(167, 191, 232, 0.7)), url(shooter.jpg);
+}
+
+.tint-green-fashion {
+	background-image: linear-gradient(to left, rgba(100, 145, 115, 0.7), rgba(219, 213, 164, 0.7)), url(4.jpg);
+}
+
+.tint-green-lifestyle {
+	background-image: linear-gradient(to left, rgba(100, 145, 115, 0.7), rgba(219, 213, 164, 0.7)), url(18.jpg);
+}
+
+.tint-green-portraits {
+	background-image: linear-gradient(to left, rgba(100, 145, 115, 0.7), rgba(219, 213, 164, 0.7)), url(19.jpg);
+}
+
+.tint-green-couples {
+	background-image: linear-gradient(to left, rgba(100, 145, 115, 0.7), rgba(219, 213, 164, 0.7)), url(1.jpg);
+}
+
+.tint-green-events {
+	background-image: linear-gradient(to left, rgba(100, 145, 115, 0.7), rgba(219, 213, 164, 0.7)), url(12.jpg);
+}
+
+.tint-green-places {
+	background-image: linear-gradient(to left, rgba(100, 145, 115, 0.7), rgba(219, 213, 164, 0.7)), url(21.jpg);
+}
+
+.tint-about {
+	background-image:  url(me.jpg);
 }
 
 .plus-sign {
