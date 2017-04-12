@@ -1,5 +1,5 @@
 
-
+//header nav bar sticky - static
 $('a[href*="#"]:not([href="#"])').click(function() {
   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
     var target = $(this.hash);
@@ -29,15 +29,3 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     }, 500);
 });
 
-$('a.imghvr-fade').on("touchstart", function (e) {
-    "use strict"; //satisfy the code inspectors
-    var link = $(this); //preselect the link
-    if (link.hasClass('hover')) {
-        return true;
-    } else {
-        link.addClass("hover");
-        $('imghvr-fade').not(this).removeClass("hover");
-        e.preventDefault();
-        return false; //extra, and to make sure the function has consistent return points
-    }
-});
