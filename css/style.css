@@ -272,6 +272,13 @@ background: #EFF2EF; /* fallback for old browsers */
   max-width: 100%;
 }
 
+.button-wrap-space {
+	display: inline-block;
+	padding: 3em .5em;
+	text-align: center;
+	max-width: 100%;
+}
+
 a:button {
 
   text-decoration: none;
@@ -511,6 +518,10 @@ a:button {
 
 .tint-green-places {
 	background-image: linear-gradient(to left, rgba(100, 145, 115, 0.7), rgba(219, 213, 164, 0.7)), url(21.jpg);
+}
+
+.tint-green-contact {
+	background-image: linear-gradient(to left, rgba(100, 145, 115, 0.7), rgba(219, 213, 164, 0.7)), url(mephoto.jpg);
 }
 
 .tint-about {
