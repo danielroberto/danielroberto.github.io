@@ -526,7 +526,7 @@ a:button {
 }
 
 .tint-blue-brew {
-	background-image: linear-gradient(to left, rgba(100, 145, 115, 0.7), rgba(219, 213, 164, 0.7)), url(bruvida.jpg);
+	background-image: linear-gradient(to left, rgba(97, 144, 232, 0.7), rgba(167, 191, 232, 0.7)), url(bruvida.jpg);
 }
 
 .tint-about {
