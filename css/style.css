@@ -529,6 +529,10 @@ a:button {
 	background-image: linear-gradient(to left, rgba(97, 144, 232, 0.7), rgba(167, 191, 232, 0.7)), url(bruvida.jpg);
 }
 
+.tint-blue-sony {
+	background-image: linear-gradient(to left, rgba(97, 144, 232, 0.7), rgba(167, 191, 232, 0.7)), url(Sony_Logo.jpg);
+}
+
 .tint-about {
 	background-image:  url(me.jpg);
 }
@@ -548,3 +552,7 @@ a:button {
 .grow:hover { 
 	transform: scale(1.05);
 	 }
+
+.text-center {
+	text-align: center
+}
