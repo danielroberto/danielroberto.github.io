@@ -475,6 +475,12 @@ a:button {
 }
 
 
+.tint-blue-jpn {
+	background-image: linear-gradient(to left, rgba(97, 144, 232, 0.7), rgba(167, 191, 232, 0.7)), url(home_page.JPG);
+
+}
+
+
 .tint-blue-folio {
 	background-image: linear-gradient(to left, rgba(97, 144, 232, 0.7), rgba(167, 191, 232, 0.7)), url(blursketch6.jpg);
 
@@ -534,7 +540,7 @@ a:button {
 }
 
 .tint-about {
-	background-image:  url(me.jpg);
+	background-image:  url(me2.jpg);
 }
 
 .plus-sign {
