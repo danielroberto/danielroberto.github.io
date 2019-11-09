@@ -9,10 +9,23 @@ Version: 1.0.0 - 11.01.2014
 
 * {margin: 0; padding: 0;}
 
-a {text-decoration: none;}
+a {text-decoration: underline;
+color: #000000;
+}
 
+a:hover {
+	color: #F395C7;
+}
 
+a.class1 {
+	font-weight: bold;
+color: #ffffff;
+}
 
+s {
+	word-spacing: 1em;
+	text-align: left;
+}
 
 /* This class is added on scroll */
 .fixed {
@@ -23,8 +36,8 @@ a {text-decoration: none;}
 }
 
 body {
-	color: #fff;
-	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
 	text-align: center;
 }
@@ -45,24 +58,28 @@ nav li {
 }
 
 nav li a {
-	color: #ffffff;
+	color: #000000;
 	text-transform: uppercase;
 	font-size: 0.625em;
 	text-decoration: none!important;
 	font-weight: bold;
 }
 
-nav li a.hover {
-	color: #fff;
+nav li a:hover {
+	color: #F395C7;
 
 }
 
-nav li a.active {
-	color: #fff;
-	border-bottom: 2px solid #52d3aa;
+nav li a:active {
+	color: #25282A;
+	text-decoration: underline;
+	border-bottom: 2px solid #F395C7;
 }
 
-
+mark {
+	background-color: #F395C7;
+	color: black;
+}
 
 .alignleft {
 	float: left;
@@ -75,8 +92,18 @@ nav li a.active {
 }
 
 
+.textalignleft {
+	text-align: left;
+}
+
+.textbody {
+	text-align: left;
+	font-size: 0.9em;
+}
+
 section {
 	min-height: 100vh;
+
 }
 
 /* Screens Settings */
@@ -84,15 +111,14 @@ section {
 #screen1 {
 
 
-background: #DE6262; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #DE6262 , #FFB88C); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #ffffff; /* fallback for old browsers */
         }
 
 
 #screen1 p {
-	padding-top: 1em;
-	font-size: 1.5em;
+	padding-top: 4em;
+	font-size: 3em;
+	font-weight: bold;
 }
 
 .p1 {
@@ -105,7 +131,60 @@ background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, F
 }
 
 .icocolor {
+	color:black;
+	font-size: 3em;
+	padding-top: 3em;
+}
+
+.icocolor2 {
 	color:white;
+	font-size: 2em;
+	padding-top: 1em;
+}
+
+.headericon {
+	padding-top: 4em;
+	max-height: 100%;
+	max-width: 100%;
+	 /*gives space below icon*/
+}
+
+#screen12 {
+
+
+background-image: url("P1010168.jpg"); /* fallback for old browsers */
+background-repeat: no-repeat;
+background-size: cover;
+max-width: 100%;
+background-position: 10% 10%;
+        }
+
+
+#screen12 p {
+	padding-top: 4em;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.p {
+	padding-top: 3em;
+}
+
+.pfont {
+	padding-top: 1em;
+	font-size: 1em;
+}
+
+.icocolor {
+	color:black;
+	font-size: 3em;
+	padding-top: 3em;
+}
+
+.icocolor2 {
+	color:white;
+	font-size: 2em;
+	padding-top: 1em;
 }
 
 .headericon {
@@ -116,10 +195,8 @@ background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, F
 }
 
 #screen2 {
-	
-background: #6190E8; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #6190E8 , #A7BFE8); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #6190E8 , #A7BFE8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding-top: 2em;
+background: #000000;
         }
         
 
@@ -127,9 +204,9 @@ background: linear-gradient(to left, #6190E8 , #A7BFE8); /* W3C, IE 10+/ Edge, F
 #screen2 p {
 	padding-top: 1em;
 	font-size: 2em;
-	text-align: center;
-	color: white;
 	font-weight: bold;
+	text-align: left;
+	color: white;
 }
 
 .p2 {
@@ -146,24 +223,48 @@ background: linear-gradient(to left, #6190E8 , #A7BFE8); /* W3C, IE 10+/ Edge, F
 #screen3 {
 	
 
-background: #649173; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #649173 , #DBD5A4); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #649173 , #DBD5A4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+background: #ffffff;     
 }
 
 #screen3 p {
 	padding-top: 1em;
 	font-size: 2em;
-	text-align: center;
-	color: white;
+	text-align: left;
+	color: black;
 	font-weight: bold;
 }
 
 .p3 {
 	font-size: 1em;
 	text-align: center;
-	color: white;
+	color: black;
+}
+
+.screen3arrow {
+	position: relative;
+	text-align: center;
+}
+
+
+
+#screen32 {
+	
+padding-top: 2em;
+background: #ffffff;     
+}
+
+#screen3 p {
+	padding-top: 1em;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: left;
+	color: black;
+}
+
+.p3 {
+	font-size: 1em;
+	text-align: center;
+	color: black;
 }
 
 .screen3arrow {
@@ -172,9 +273,9 @@ background: linear-gradient(to left, #649173 , #DBD5A4); /* W3C, IE 10+/ Edge, F
 }
 
 #screen4 {
-	
+	min-height: 40vh;
 
-background: #EFF2EF; /* fallback for old browsers */
+background: #E5E1E6; /* fallback for old browsers */
         
 }
 
@@ -182,7 +283,7 @@ background: #EFF2EF; /* fallback for old browsers */
 	padding-top: 1em;
 	font-size: 2em;
 	text-align: center;
-	color: white;
+	color: black;
 	font-weight: bold;
 }
 
@@ -193,7 +294,7 @@ background: #EFF2EF; /* fallback for old browsers */
 }
 
 .project-h1 {
-	font-size: 1.5em;
+	font-size: 1.5vw;
 	text-align: left;
 	color: #ffffff;
 	font-weight: bold;
@@ -202,7 +303,7 @@ background: #EFF2EF; /* fallback for old browsers */
 .project-h2 {
 	font-size: 1em;
 	text-align: left;
-	color: #30332E;
+	color: #000000;
 	font-weight: bold;
 }
 
@@ -219,6 +320,170 @@ background: #EFF2EF; /* fallback for old browsers */
 	text-align: center;
 }
 
+#screen5 {
+	
+
+background: #ffffff;
+min-height: 30vh;     
+}
+
+#screen5 p {
+	padding-top: 1em;
+	font-size: 2em;
+	text-align: left;
+	color: black;
+	font-weight: bold;
+}
+
+.p5 {
+	font-size: 1em;
+	text-align: center;
+	color: black;
+}
+
+.screen5arrow {
+	position: relative;
+	text-align: center;
+}
+
+
+#screen5 {
+	
+
+background: #ffffff;
+min-height: 30vh;     
+}
+
+#screen5 p {
+	padding-top: 1em;
+	font-size: 2em;
+	text-align: left;
+	color: black;
+	font-weight: bold;
+}
+
+
+#screenut {
+
+background-color: #ffffff;
+        }
+
+ #screench {
+
+
+background-image: url("chewsr.jpg"); /* fallback for old browsers */
+background-size: cover;
+background-repeat: no-repeat;
+max-width: 100%;
+        }
+
+ #screench p {
+	padding-top: 4em;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+ #screenpf {
+
+
+background-image: url("folio.jpg"); /* fallback for old browsers */
+background-size: cover;
+background-repeat: no-repeat;
+max-width: 100%;
+        }
+
+ #screenpf p {
+	padding-top: 4em;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+
+ #screenss {
+
+
+background-image: url("safety.jpg"); /* fallback for old browsers */
+background-size: cover;
+background-repeat: no-repeat;
+max-width: 100%;
+        }
+
+ #screenss p {
+	padding-top: 4em;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.p {
+	padding-top: 3em;
+}
+
+.pfont {
+	padding-top: 1em;
+	font-size: 1em;
+}
+
+.icocolor {
+	color:black;
+	font-size: 3em;
+	padding-top: 3em;
+}
+
+.icocolor2 {
+	color:white;
+	font-size: 2em;
+	padding-top: 1em;
+}
+
+.headericon {
+	padding-top: 4em;
+	max-height: 100%;
+	max-width: 100%;
+	 /*gives space below icon*/
+}
+
+.bottomposition {
+	display: table-cell;
+    vertical-align: bottom;
+    height: 100vh; /* adjust to suit requirements */
+}
+
+#screenut p {
+	padding-top: 4em;
+	font-size: 3em;
+	font-weight: bold;
+	color: black;
+}
+
+.p {
+	padding-top: 3em;
+}
+
+.pfont {
+	padding-top: 1em;
+	font-size: 1em;
+}
+
+.icocolor {
+	color:black;
+	font-size: 3em;
+	padding-top: 3em;
+}
+
+.icocolor2 {
+	color:white;
+	font-size: 2em;
+	padding-top: 1em;
+}
+
+.headericon {
+	padding-top: 4em;
+	max-height: 100%;
+	max-width: 100%;
+	 /*gives space below icon*/
+}
+
+
 @media only screen and (max-width: 520px) {
 
 	nav li {
@@ -227,6 +492,11 @@ background: #EFF2EF; /* fallback for old browsers */
 
 	nav li a {
 		font-size: 14px;
+	}
+
+	#screen1 p {
+		padding-top: 5em;
+		font-size: 2em;
 	}
 
 }
@@ -242,6 +512,33 @@ background: #EFF2EF; /* fallback for old browsers */
 
 .text-div {
 	font-size: 0.8em;
+	color: #ffffff;
+	padding-top: 1em;
+}
+
+.text-div2 {
+	font-size: 0.8em;
+	text-align: left;
+	color: #ffffff;
+	padding-top: 1em;
+}
+
+.textblk-div {
+	font-size: 0.8em;
+	color: #000000;
+	padding-top: 1em;
+}
+
+.textlarge-div {
+	font-size: 1.2em;
+	color: #ffffff;
+	padding-top: 1em;
+}
+
+.textlarge-divv {
+	font-size: 1.2em;
+	text-align: left;
+	color: #ffffff;
 	padding-top: 1em;
 }
 
@@ -254,6 +551,11 @@ background: #EFF2EF; /* fallback for old browsers */
   .text-div {
     text-align: center;
   }
+
+  #screen1 p {
+		padding-top: 5em;
+		font-size: 2em;
+	}
 }
 
 .carousel-inner > .item > img,
@@ -291,8 +593,9 @@ a:button {
 .btn6, .btn6:link, .btn6:visited {
   padding: 13px 10px;
   display: inline-block;
-  border: 1px solid #fff;
-  color: #fff;
+  background-color: #F395C7;
+  border: 1px solid #F395C7;
+  color: #000;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
@@ -304,8 +607,8 @@ a:button {
 
 }
 .btn6:hover, .btn6:link:hover, .btn6:visited:hover {
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #F395C7;
+  color: #000;
   border-radius: 30px;
   max-width: 100%;
   display:inline-block;
@@ -336,17 +639,17 @@ a:button {
 }
 
 .foot {
+	background-color: black;
 	padding-top: 2em;
 	padding-bottom: 2em;
 	text-align: center;
-	color: #000;
-	font-size: 14px;
-	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 0.8em;
 }
 
 .footicons {
 	text-align: center;
-	color: #000;
+	color: white;
 	letter-spacing: 1em;
 }
 
@@ -420,9 +723,21 @@ a:button {
 }
 
 .icon-responsive {
-	height: 150px;
-	width: 150px;
+	height: 5em;
+	width: 5em;
 }
+
+.overview-responsive {
+	width: 20em;
+}
+
+.tiny-responsive {
+	height: 1em;
+	width: 1em;
+}
+.work-responsive {
+	width: 25em;
+
 
 .img-responsive-about {
 	max-width: 70%;
@@ -432,14 +747,21 @@ a:button {
 	padding-bottom: 1em;
 }
 
+#this-responsive {
+	height: 50%;
+	width: 50%;
+	
+}
+
 .img-responsive-process {
-	max-width: 50%
+	max-width: 50%;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
 
 .screenshot-responsive {
-	max-width: 100%
+	max-width: 100%;
+	max-height: 50%;
 }
 
 .project-title-left {
@@ -545,7 +867,7 @@ a:button {
 }
 
 .tint-about {
-	background-image:  url(me2.jpg);
+	background-image: url(P1010168.jpg);
 }
 
 .plus-sign {
