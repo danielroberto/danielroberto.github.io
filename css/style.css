@@ -739,7 +739,7 @@ a:button {
 	width: 25em;
 
 
-.img-responsive-about {
+.img-responsive {
 	max-width: 70%;
 	display: block;
 	margin: 0 auto;
@@ -757,7 +757,19 @@ a:button {
 	max-width: 50%;
 	padding-top: 1em;
 	padding-bottom: 1em;
+
 }
+
+.img-responsive-center {
+	max-width: 100%
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.img-center {
+	text-align: center;
+}
+
 
 .screenshot-responsive {
 	max-width: 100%;
