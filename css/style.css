@@ -14,7 +14,7 @@ color: #000000;
 }
 
 a:hover {
-	color: #F395C7;
+	color: #000000;
 }
 
 a.class1 {
@@ -37,7 +37,7 @@ s {
 
 body {
 	color: #000000;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Karla', sans-serif;
 	font-size: 20px;
 	text-align: center;
 }
@@ -66,7 +66,8 @@ nav li a {
 }
 
 nav li a:hover {
-	color: #F395C7;
+	color: #000000;
+	text-shadow: 2px 2px 4px;
 
 }
 
@@ -102,7 +103,7 @@ mark {
 }
 
 section {
-	min-height: 100vh;
+	min-height: 90vh;
 
 }
 
@@ -111,7 +112,10 @@ section {
 #screen1 {
 
 
-background: #ffffff; /* fallback for old browsers */
+background-image: url("../images/home.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+max-width: 100%; /* fallback for old browsers */
         }
 
 
@@ -147,6 +151,12 @@ background: #ffffff; /* fallback for old browsers */
 	max-height: 100%;
 	max-width: 100%;
 	 /*gives space below icon*/
+}
+
+.proj1 {
+	width: 80%;
+	height: 80%;
+	background-color: #545452;
 }
 
 #screen12 {
@@ -195,6 +205,7 @@ background-position: 10% 10%;
 }
 
 #screen2 {
+	min-height: 60vh;
 	padding-top: 2em;
 background: #000000;
         }
@@ -204,15 +215,15 @@ background: #000000;
 #screen2 p {
 	padding-top: 1em;
 	font-size: 2em;
-	font-weight: bold;
-	text-align: left;
+	text-align: center;
 	color: white;
 }
 
-.p2 {
-	font-size: 1em;
+.p2quote {
+	padding-top: 1em;
+	font-size: 1.5em;
 	text-align: center;
-	color: white;
+	color: #ff8700;
 }
 
 .screen2arrow {
@@ -270,6 +281,25 @@ background: #ffffff;
 .screen3arrow {
 	position: relative;
 	text-align: center;
+}
+
+#screenproblem {
+	min-height:40vh;
+	background: #FFE9D0;
+}
+
+#screenproblem p {
+	padding-top: 1em;
+	font-size: 2em;
+	text-align: left;
+	color: black;
+	font-weight: bold;
+}
+
+.p4 {
+	font-size: .7em;
+	text-align: left;
+	color: #30332E;
 }
 
 #screen4 {
@@ -362,11 +392,20 @@ min-height: 30vh;
 	font-weight: bold;
 }
 
-
 #screenut {
 
-background-color: #ffffff;
+background-image: url("../images/reddit.png"); /* fallback for old browsers */
+background-size: cover;
+background-repeat: no-repeat;
+max-width: 100%;
         }
+
+.screenutimg {
+	position: absolute;
+	z-index: 10;
+	top: 5;
+	left: 5;
+}
 
  #screench {
 
@@ -900,4 +939,62 @@ a:button {
 
 .text-center {
 	text-align: center
+}
+
+
+
+
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
