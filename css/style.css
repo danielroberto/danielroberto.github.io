@@ -407,6 +407,56 @@ max-width: 100%;
 	left: 5;
 }
 
+
+#screenft p {
+	padding-top: 4em;
+	font-size: 3em;
+	font-weight: bold;
+	color: black;
+}
+
+.p {
+	padding-top: 3em;
+}
+
+.pfont {
+	padding-top: 1em;
+	font-size: 1em;
+}
+
+.icocolor {
+	color:black;
+	font-size: 3em;
+	padding-top: 3em;
+}
+
+.icocolor2 {
+	color:white;
+	font-size: 2em;
+	padding-top: 1em;
+}
+
+.headericon {
+	padding-top: 4em;
+	max-height: 100%;
+	max-width: 100%;
+	 /*gives space below icon*/
+}
+#screenft {
+
+background-image: url("../images/fakeandtrue.jpg"); /* fallback for old browsers */
+background-size: cover;
+background-repeat: no-repeat;
+max-width: 100%;
+        }
+
+.screenftimg {
+	position: absolute;
+	z-index: 10;
+	top: 5;
+	left: 5;
+}
+
  #screench {
 
 
@@ -778,14 +828,6 @@ a:button {
 	width: 25em;
 
 
-.img-responsive {
-	max-width: 70%;
-	display: block;
-	margin: 0 auto;
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
-
 #this-responsive {
 	height: 50%;
 	width: 50%;
@@ -997,4 +1039,28 @@ a:button {
   100% {
     opacity:1;
   }
+}
+
+.ludwig {
+  position: relative;
+  padding-left: 1em;
+  border-left: 0.2em solid #ff8700;
+  font-size: 2.4em;
+  line-height: 1.5em;
+  font-weight: 100;
+}
+.ludwig:before, .ludwig:after {
+  content: '\201C';
+  color: #ff8700;
+}
+.ludwig:after {
+  content: '\201D';
+}
+
+#largenumber {
+	font-size: 5em;
+}
+
+img {
+	max-width: 100%;
 }
